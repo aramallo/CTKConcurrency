@@ -1,0 +1,42 @@
+//
+// Prefix header for all source files of the 'CTKConcurrency' target in the 'CTKConcurrency' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+	//#import <Cocoa/Cocoa.h>
+
+#endif
+
+
+
+static NSInteger CTKCurrentThreadNumber()
+{
+    NSString *threadString = [NSString stringWithFormat:@"%@", [NSThread currentThread]];
+    NSRange	numRange = [threadString rangeOfString:@"num = "];
+    NSUInteger numLength = [threadString length] - numRange.location - numRange.length;
+    numRange.location = numRange.location + numRange.length;
+    numRange.length   = numLength - 1;
+    threadString = [threadString substringWithRange:numRange];
+    return [threadString integerValue];
+}
+
+
+
+#ifdef DEBUG
+#	define CTKLog(fmt, ...) NSLog((@"[# %U] %s (%d) " fmt), CTKCurrentThreadNumber(), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#	define CTKLog(fmt, ...)
+#endif
+
+#ifdef DEBUG
+#	define CTKConditionalLog(condition, fmt, ...) if(condition) NSLog((@"[# %U] %s (%d) " fmt), CTKCurrentThreadNumber(), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#	define CTKConditionalLog(condition, fmt, ...)
+#endif
+
+#define CTKWarningLog(fmt, ...)  NSLog((@"<Warning>: [# %U] %s (%d) " fmt), CTKCurrentThreadNumber(), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#define CTKErrorLog(fmt, ...)  NSLog((@"<Error>: [# %U] %s (%d) " fmt), CTKCurrentThreadNumber(), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+

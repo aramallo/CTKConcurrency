@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802C004C113BEB9E002E16A7 /* CTKTransactionalHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0026113BEB9E002E16A7 /* CTKTransactionalHashMap.m */; };
+		802C004D113BEB9E002E16A7 /* CTKPersistentHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C002A113BEB9E002E16A7 /* CTKPersistentHashMap.m */; };
+		802C004E113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C002C113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m */; };
+		802C004F113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C002E113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m */; };
+		802C0050113BEB9E002E16A7 /* CTKTrieEmptyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0030113BEB9E002E16A7 /* CTKTrieEmptyNode.m */; };
+		802C0051113BEB9E002E16A7 /* CTKTrieFullNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0032113BEB9E002E16A7 /* CTKTrieFullNode.m */; };
+		802C0052113BEB9E002E16A7 /* CTKTrieHashCollisionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0034113BEB9E002E16A7 /* CTKTrieHashCollisionNode.m */; };
+		802C0053113BEB9E002E16A7 /* CTKTrieLeafNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0036113BEB9E002E16A7 /* CTKTrieLeafNode.m */; };
+		802C0056113BEB9E002E16A7 /* CTKLockingTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */; };
+		802C0057113BEB9E002E16A7 /* CTKLockingTransactionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0043113BEB9E002E16A7 /* CTKLockingTransactionInfo.m */; };
+		802C0058113BEB9E002E16A7 /* CTKLockingTransactionValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0045113BEB9E002E16A7 /* CTKLockingTransactionValue.m */; };
+		802C0059113BEB9E002E16A7 /* CTKReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0047113BEB9E002E16A7 /* CTKReference.m */; };
+		802C007B113BEF2B002E16A7 /* CTKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C007A113BEF2B002E16A7 /* CTKUtils.m */; };
+		8DD76F9A0486AA7600D96B5E /* CTKConcurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* CTKConcurrency.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* CTKConcurrency.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* CTKConcurrency.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* CTKConcurrency.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* CTKConcurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKConcurrency.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* CTKConcurrency_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKConcurrency_Prefix.pch; sourceTree = "<group>"; };
+		802C0025113BEB9E002E16A7 /* CTKTransactionalHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTransactionalHashMap.h; sourceTree = "<group>"; };
+		802C0026113BEB9E002E16A7 /* CTKTransactionalHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKTransactionalHashMap.m; sourceTree = "<group>"; };
+		802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKPersistentHashMap.h; sourceTree = "<group>"; };
+		802C002A113BEB9E002E16A7 /* CTKPersistentHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKPersistentHashMap.m; sourceTree = "<group>"; };
+		802C002B113BEB9E002E16A7 /* CTKPersistentHashMapEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKPersistentHashMapEntry.h; sourceTree = "<group>"; };
+		802C002C113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKPersistentHashMapEntry.m; sourceTree = "<group>"; };
+		802C002D113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTrieBitmapIndexedNode.h; sourceTree = "<group>"; };
+		802C002E113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKTrieBitmapIndexedNode.m; sourceTree = "<group>"; };
+		802C002F113BEB9E002E16A7 /* CTKTrieEmptyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTrieEmptyNode.h; sourceTree = "<group>"; };
+		802C0030113BEB9E002E16A7 /* CTKTrieEmptyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKTrieEmptyNode.m; sourceTree = "<group>"; };
+		802C0031113BEB9E002E16A7 /* CTKTrieFullNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTrieFullNode.h; sourceTree = "<group>"; };
+		802C0032113BEB9E002E16A7 /* CTKTrieFullNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKTrieFullNode.m; sourceTree = "<group>"; };
+		802C0033113BEB9E002E16A7 /* CTKTrieHashCollisionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTrieHashCollisionNode.h; sourceTree = "<group>"; };
+		802C0034113BEB9E002E16A7 /* CTKTrieHashCollisionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKTrieHashCollisionNode.m; sourceTree = "<group>"; };
+		802C0035113BEB9E002E16A7 /* CTKTrieLeafNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTrieLeafNode.h; sourceTree = "<group>"; };
+		802C0036113BEB9E002E16A7 /* CTKTrieLeafNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKTrieLeafNode.m; sourceTree = "<group>"; };
+		802C0037113BEB9E002E16A7 /* CTKTrieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTrieNode.h; sourceTree = "<group>"; };
+		802C0040113BEB9E002E16A7 /* CTKLockingTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKLockingTransaction.h; sourceTree = "<group>"; };
+		802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKLockingTransaction.m; sourceTree = "<group>"; };
+		802C0042113BEB9E002E16A7 /* CTKLockingTransactionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKLockingTransactionInfo.h; sourceTree = "<group>"; };
+		802C0043113BEB9E002E16A7 /* CTKLockingTransactionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKLockingTransactionInfo.m; sourceTree = "<group>"; };
+		802C0044113BEB9E002E16A7 /* CTKLockingTransactionValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKLockingTransactionValue.h; sourceTree = "<group>"; };
+		802C0045113BEB9E002E16A7 /* CTKLockingTransactionValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKLockingTransactionValue.m; sourceTree = "<group>"; };
+		802C0046113BEB9E002E16A7 /* CTKReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKReference.h; sourceTree = "<group>"; };
+		802C0047113BEB9E002E16A7 /* CTKReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKReference.m; sourceTree = "<group>"; };
+		802C0079113BEF2B002E16A7 /* CTKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKUtils.h; sourceTree = "<group>"; };
+		802C007A113BEF2B002E16A7 /* CTKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKUtils.m; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* CTKConcurrency */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTKConcurrency; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* CTKConcurrency.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CTKConcurrency.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* CTKConcurrency */ = {
+			isa = PBXGroup;
+			children = (
+				802C0019113BEB9E002E16A7 /* Classes */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = CTKConcurrency;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* CTKConcurrency_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* CTKConcurrency.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* CTKConcurrency */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		802C0019113BEB9E002E16A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				802C0078113BEF2B002E16A7 /* Common */,
+				802C001A113BEB9E002E16A7 /* Persistent Data Structures */,
+				802C003F113BEB9E002E16A7 /* Software Transactional Memory */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		802C001A113BEB9E002E16A7 /* Persistent Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				802C0025113BEB9E002E16A7 /* CTKTransactionalHashMap.h */,
+				802C0026113BEB9E002E16A7 /* CTKTransactionalHashMap.m */,
+				802C0028113BEB9E002E16A7 /* PersistentHashMap */,
+			);
+			path = "Persistent Data Structures";
+			sourceTree = "<group>";
+		};
+		802C0028113BEB9E002E16A7 /* PersistentHashMap */ = {
+			isa = PBXGroup;
+			children = (
+				802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */,
+				802C002A113BEB9E002E16A7 /* CTKPersistentHashMap.m */,
+				802C002B113BEB9E002E16A7 /* CTKPersistentHashMapEntry.h */,
+				802C002C113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m */,
+				802C002D113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.h */,
+				802C002E113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m */,
+				802C002F113BEB9E002E16A7 /* CTKTrieEmptyNode.h */,
+				802C0030113BEB9E002E16A7 /* CTKTrieEmptyNode.m */,
+				802C0031113BEB9E002E16A7 /* CTKTrieFullNode.h */,
+				802C0032113BEB9E002E16A7 /* CTKTrieFullNode.m */,
+				802C0033113BEB9E002E16A7 /* CTKTrieHashCollisionNode.h */,
+				802C0034113BEB9E002E16A7 /* CTKTrieHashCollisionNode.m */,
+				802C0035113BEB9E002E16A7 /* CTKTrieLeafNode.h */,
+				802C0036113BEB9E002E16A7 /* CTKTrieLeafNode.m */,
+				802C0037113BEB9E002E16A7 /* CTKTrieNode.h */,
+			);
+			path = PersistentHashMap;
+			sourceTree = "<group>";
+		};
+		802C003F113BEB9E002E16A7 /* Software Transactional Memory */ = {
+			isa = PBXGroup;
+			children = (
+				802C0040113BEB9E002E16A7 /* CTKLockingTransaction.h */,
+				802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */,
+				802C0042113BEB9E002E16A7 /* CTKLockingTransactionInfo.h */,
+				802C0043113BEB9E002E16A7 /* CTKLockingTransactionInfo.m */,
+				802C0044113BEB9E002E16A7 /* CTKLockingTransactionValue.h */,
+				802C0045113BEB9E002E16A7 /* CTKLockingTransactionValue.m */,
+				802C0046113BEB9E002E16A7 /* CTKReference.h */,
+				802C0047113BEB9E002E16A7 /* CTKReference.m */,
+			);
+			path = "Software Transactional Memory";
+			sourceTree = "<group>";
+		};
+		802C0078113BEF2B002E16A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				802C0079113BEF2B002E16A7 /* CTKUtils.h */,
+				802C007A113BEF2B002E16A7 /* CTKUtils.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* CTKConcurrency.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* CTKConcurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "CTKConcurrency" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTKConcurrency;
+			productInstallPath = "$(HOME)/bin";
+			productName = CTKConcurrency;
+			productReference = 8DD76FA10486AA7600D96B5E /* CTKConcurrency */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "CTKConcurrency" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* CTKConcurrency */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* CTKConcurrency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* CTKConcurrency.m in Sources */,
+				802C004C113BEB9E002E16A7 /* CTKTransactionalHashMap.m in Sources */,
+				802C004D113BEB9E002E16A7 /* CTKPersistentHashMap.m in Sources */,
+				802C004E113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m in Sources */,
+				802C004F113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m in Sources */,
+				802C0050113BEB9E002E16A7 /* CTKTrieEmptyNode.m in Sources */,
+				802C0051113BEB9E002E16A7 /* CTKTrieFullNode.m in Sources */,
+				802C0052113BEB9E002E16A7 /* CTKTrieHashCollisionNode.m in Sources */,
+				802C0053113BEB9E002E16A7 /* CTKTrieLeafNode.m in Sources */,
+				802C0056113BEB9E002E16A7 /* CTKLockingTransaction.m in Sources */,
+				802C0057113BEB9E002E16A7 /* CTKLockingTransactionInfo.m in Sources */,
+				802C0058113BEB9E002E16A7 /* CTKLockingTransactionValue.m in Sources */,
+				802C0059113BEB9E002E16A7 /* CTKReference.m in Sources */,
+				802C007B113BEF2B002E16A7 /* CTKUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CTKConcurrency_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PRODUCT_NAME = CTKConcurrency;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CTKConcurrency_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DDEBUG=0";
+				PRODUCT_NAME = CTKConcurrency;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "CTKConcurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "CTKConcurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
