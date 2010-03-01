@@ -24,7 +24,6 @@
  *   -----------------------------------------------------------------------------
  */
 #import <Cocoa/Cocoa.h>
-#import "CTKSequential.h"
 @class CTKTrieLeafNode;
 
 /*

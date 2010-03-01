@@ -138,6 +138,19 @@
 			802C00C9113BFF75002E16A7 /* PBXTextBookmark */ = 802C00C9113BFF75002E16A7 /* PBXTextBookmark */;
 			802C00CA113BFF7D002E16A7 /* PBXTextBookmark */ = 802C00CA113BFF7D002E16A7 /* PBXTextBookmark */;
 			802C00CB113BFF7D002E16A7 /* PBXTextBookmark */ = 802C00CB113BFF7D002E16A7 /* PBXTextBookmark */;
+			802C00CE113C0616002E16A7 /* PBXTextBookmark */ = 802C00CE113C0616002E16A7 /* PBXTextBookmark */;
+			802C00CF113C0616002E16A7 /* PBXTextBookmark */ = 802C00CF113C0616002E16A7 /* PBXTextBookmark */;
+			802C00D0113C0616002E16A7 /* PBXTextBookmark */ = 802C00D0113C0616002E16A7 /* PBXTextBookmark */;
+			802C00D1113C061F002E16A7 /* PBXTextBookmark */ = 802C00D1113C061F002E16A7 /* PBXTextBookmark */;
+			802C00D2113C061F002E16A7 /* PBXTextBookmark */ = 802C00D2113C061F002E16A7 /* PBXTextBookmark */;
+			802C00DD113C0662002E16A7 /* PBXTextBookmark */ = 802C00DD113C0662002E16A7 /* PBXTextBookmark */;
+			802C00DE113C0662002E16A7 /* PBXTextBookmark */ = 802C00DE113C0662002E16A7 /* PBXTextBookmark */;
+			802C00DF113C0662002E16A7 /* PBXTextBookmark */ = 802C00DF113C0662002E16A7 /* PBXTextBookmark */;
+			802C00E0113C0662002E16A7 /* XCBuildMessageTextBookmark */ = 802C00E0113C0662002E16A7 /* XCBuildMessageTextBookmark */;
+			802C00E1113C0662002E16A7 /* PBXTextBookmark */ = 802C00E1113C0662002E16A7 /* PBXTextBookmark */;
+			802C00E2113C0673002E16A7 /* PBXTextBookmark */ = 802C00E2113C0673002E16A7 /* PBXTextBookmark */;
+			802C00E3113C0673002E16A7 /* PBXTextBookmark */ = 802C00E3113C0673002E16A7 /* PBXTextBookmark */;
+			802C00E4113C0676002E16A7 /* PBXTextBookmark */ = 802C00E4113C0676002E16A7 /* PBXTextBookmark */;
 			802CFF3D11373C45002E16A7 = 802CFF3D11373C45002E16A7 /* PBXTextBookmark */;
 			802CFF8411399CB5002E16A7 = 802CFF8411399CB5002E16A7 /* PBXTextBookmark */;
 			802CFF9F1139EA80002E16A7 = 802CFF9F1139EA80002E16A7 /* PBXTextBookmark */;
@@ -158,7 +171,7 @@
 	};
 	08FB7796FE84155DC02AAC07 /* CTKConcurrency.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 3774}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 3485}}";
 			sepNavSelRange = "{3539, 0}";
 			sepNavVisRange = "{3047, 137}";
 		};
@@ -263,9 +276,16 @@
 	};
 	802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1066, 884}}";
-			sepNavSelRange = "{0, 1341}";
-			sepNavVisRange = "{0, 1367}";
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 884}}";
+			sepNavSelRange = "{111, 0}";
+			sepNavVisRange = "{3, 500}";
+		};
+	};
+	802C002B113BEB9E002E16A7 /* CTKPersistentHashMapEntry.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 782}}";
+			sepNavSelRange = "{1366, 0}";
+			sepNavVisRange = "{595, 978}";
 		};
 	};
 	802C002E113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m */ = {
@@ -287,6 +307,14 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1066, 2465}}";
 			sepNavSelRange = "{1445, 0}";
 			sepNavVisRange = "{772, 1015}";
+		};
+	};
+	802C0037113BEB9E002E16A7 /* CTKTrieNode.h */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = \"(description)\";\n            r = \"{2096, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{2590, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(brief description)\";\n            r = \"{3487, 23}\";\n            s = 1;\n        },\n                {\n            l = \"(comprehensive description)\";\n            r = \"{3528, 31}\";\n            s = 1;\n        },\n                {\n            l = \"(comprehensive description)\";\n            r = \"{3800, 31}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{3853, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{3898, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{3932, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(comprehensive description)\";\n            r = \"{4158, 31}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4215, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4254, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4300, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4345, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4385, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4419, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(comprehensive description)\";\n            r = \"{4745, 31}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4798, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4843, 17}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{4877, 17}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4983}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 2278}}";
+			sepNavSelRange = "{1366, 0}";
+			sepNavVisRange = "{838, 1005}";
 		};
 	};
 	802C0039113BEB9E002E16A7 /* CTKAbstractSequence.h */ = {
@@ -331,8 +359,8 @@
 	802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1066, 15045}}";
-			sepNavSelRange = "{1826, 38}";
-			sepNavVisRange = "{1742, 1081}";
+			sepNavSelRange = "{1864, 0}";
+			sepNavVisRange = "{1481, 1093}";
 		};
 	};
 	802C0046113BEB9E002E16A7 /* CTKReference.h */ = {
@@ -841,6 +869,135 @@
 		rType = 0;
 		vrLen = 218;
 		vrLoc = 3;
+	};
+	802C00CE113C0616002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6859EA3029092ED04C91782 /* CTKConcurrency.1 */;
+		name = "CTKConcurrency.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 0;
+	};
+	802C00CF113C0616002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */;
+		name = "CTKPersistentHashMap.h: 1";
+		rLen = 1341;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	802C00D0113C0616002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */;
+		name = "CTKPersistentHashMap.h: 5";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 1364;
+		vrLoc = 3;
+	};
+	802C00D1113C061F002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* CTKConcurrency.m */;
+		name = "CTKConcurrency.m: 162";
+		rLen = 0;
+		rLoc = 3539;
+		rType = 0;
+		vrLen = 137;
+		vrLoc = 3047;
+	};
+	802C00D2113C061F002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */;
+		name = "CTKPersistentHashMap.h: 5";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 500;
+		vrLoc = 3;
+	};
+	802C00DD113C0662002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */;
+		name = "CTKPersistentHashMap.h: 5";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	802C00DE113C0662002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0037113BEB9E002E16A7 /* CTKTrieNode.h */;
+		name = "CTKTrieNode.h: 27";
+		rLen = 0;
+		rLoc = 1366;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 838;
+	};
+	802C00DF113C0662002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C002B113BEB9E002E16A7 /* CTKPersistentHashMapEntry.h */;
+		name = "CTKPersistentHashMapEntry.h: 27";
+		rLen = 0;
+		rLoc = 1366;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 595;
+	};
+	802C00E0113C0662002E16A7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "CTKSequential.h: No such file or directory";
+		fRef = 802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 41;
+		rType = 1;
+	};
+	802C00E1113C0662002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */;
+		name = "CTKLockingTransaction.m: 42";
+		rLen = 0;
+		rLoc = 1864;
+		rType = 0;
+		vrLen = 1017;
+		vrLoc = 1780;
+	};
+	802C00E2113C0673002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */;
+		name = "CTKPersistentHashMap.h: 5";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 500;
+		vrLoc = 3;
+	};
+	802C00E3113C0673002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */;
+		name = "CTKLockingTransaction.m: 42";
+		rLen = 0;
+		rLoc = 1864;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 1780;
+	};
+	802C00E4113C0676002E16A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 802C0041113BEB9E002E16A7 /* CTKLockingTransaction.m */;
+		name = "CTKLockingTransaction.m: 42";
+		rLen = 0;
+		rLoc = 1864;
+		rType = 0;
+		vrLen = 1093;
+		vrLoc = 1481;
 	};
 	802CFF3D11373C45002E16A7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

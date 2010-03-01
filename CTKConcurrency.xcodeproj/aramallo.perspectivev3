@@ -274,22 +274,21 @@
 								<string>802C0019113BEB9E002E16A7</string>
 								<string>802C0078113BEF2B002E16A7</string>
 								<string>802C001A113BEB9E002E16A7</string>
-								<string>802C0038113BEB9E002E16A7</string>
+								<string>802C0028113BEB9E002E16A7</string>
 								<string>08FB7795FE84155DC02AAC07</string>
-								<string>1C37FBAC04509CD000000102</string>
-								<string>1C37FAAC04509CD000000102</string>
-								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>30</integer>
-									<integer>28</integer>
+									<integer>21</integer>
+									<integer>6</integer>
+									<integer>5</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 52}, {291, 703}}</string>
+							<string>{{0, 0}, {291, 703}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -324,7 +323,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>806EE136112D2EDE0006FDB6</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CTKConcurrency.m</string>
+								<string>CTKLockingTransaction.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>806EE137112D2EDE0006FDB6</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CTKConcurrency.m</string>
+										<string>CTKLockingTransaction.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>802C00C3113BFD87002E16A7</string>
+										<string>802C00E4113C0676002E16A7</string>
 										<key>history</key>
 										<array>
 											<string>802C0080113BEF68002E16A7</string>
@@ -344,17 +343,13 @@
 											<string>802C0082113BEF68002E16A7</string>
 											<string>802C0083113BEF68002E16A7</string>
 											<string>802C0084113BEF68002E16A7</string>
-											<string>802C0086113BEF68002E16A7</string>
-											<string>802C0087113BEF68002E16A7</string>
-											<string>802C0088113BEF68002E16A7</string>
-											<string>802C0089113BEF68002E16A7</string>
-											<string>802C0099113BF02F002E16A7</string>
-											<string>802C009A113BF02F002E16A7</string>
-											<string>802C009B113BF02F002E16A7</string>
-											<string>802C009C113BF02F002E16A7</string>
-											<string>802C00A5113BFBE6002E16A7</string>
 											<string>802C00A6113BFBE6002E16A7</string>
-											<string>802C00C2113BFD79002E16A7</string>
+											<string>802C00C6113BFF75002E16A7</string>
+											<string>802C00CE113C0616002E16A7</string>
+											<string>802C00DD113C0662002E16A7</string>
+											<string>802C00DE113C0662002E16A7</string>
+											<string>802C00DF113C0662002E16A7</string>
+											<string>802C00E3113C0673002E16A7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -368,18 +363,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1127, 716}}</string>
+								<string>{{0, 0}, {1127, 501}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 116 1440 762 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>716pt</string>
+							<string>501pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>215pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -447,7 +442,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1127, -27}}</string>
+										<string>{{10, 27}, {1127, 188}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 116 1440 762 0 0 1440 878 </string>
 									</dict>

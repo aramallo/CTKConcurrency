@@ -39,7 +39,6 @@
 #import "CTKReference.h"
 #import "CTKUtils.h"
 #import "CTKLockingTransactionInfo.h"
-#import "CTKSequential.h"
 #import "CTKLockingTransactionValue.h"
 #include <libkern/OSAtomic.h>
 #include <pthread.h>

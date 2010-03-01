@@ -24,7 +24,6 @@
  *   -----------------------------------------------------------------------------
  */
 #import <Cocoa/Cocoa.h>
-#import "CTKPersistentVector.h"
 
 @interface CTKPersistentHashMapEntry : NSObject {
 	id key;
