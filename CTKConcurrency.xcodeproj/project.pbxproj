@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		802C004C113BEB9E002E16A7 /* CTKTransactionalHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C0026113BEB9E002E16A7 /* CTKTransactionalHashMap.m */; };
 		802C004D113BEB9E002E16A7 /* CTKPersistentHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C002A113BEB9E002E16A7 /* CTKPersistentHashMap.m */; };
 		802C004E113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C002C113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m */; };
 		802C004F113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C002E113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m */; };
@@ -42,8 +41,6 @@
 		08FB7796FE84155DC02AAC07 /* CTKConcurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKConcurrency.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* CTKConcurrency_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKConcurrency_Prefix.pch; sourceTree = "<group>"; };
-		802C0025113BEB9E002E16A7 /* CTKTransactionalHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKTransactionalHashMap.h; sourceTree = "<group>"; };
-		802C0026113BEB9E002E16A7 /* CTKTransactionalHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKTransactionalHashMap.m; sourceTree = "<group>"; };
 		802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKPersistentHashMap.h; sourceTree = "<group>"; };
 		802C002A113BEB9E002E16A7 /* CTKPersistentHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKPersistentHashMap.m; sourceTree = "<group>"; };
 		802C002B113BEB9E002E16A7 /* CTKPersistentHashMapEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKPersistentHashMapEntry.h; sourceTree = "<group>"; };
@@ -135,8 +132,6 @@
 		802C001A113BEB9E002E16A7 /* Persistent Data Structures */ = {
 			isa = PBXGroup;
 			children = (
-				802C0025113BEB9E002E16A7 /* CTKTransactionalHashMap.h */,
-				802C0026113BEB9E002E16A7 /* CTKTransactionalHashMap.m */,
 				802C0028113BEB9E002E16A7 /* PersistentHashMap */,
 			);
 			path = "Persistent Data Structures";
@@ -240,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* CTKConcurrency.m in Sources */,
-				802C004C113BEB9E002E16A7 /* CTKTransactionalHashMap.m in Sources */,
 				802C004D113BEB9E002E16A7 /* CTKPersistentHashMap.m in Sources */,
 				802C004E113BEB9E002E16A7 /* CTKPersistentHashMapEntry.m in Sources */,
 				802C004F113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m in Sources */,

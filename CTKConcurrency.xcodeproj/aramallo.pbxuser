@@ -236,6 +236,12 @@
 		};
 	};
 	802C0025113BEB9E002E16A7 /* CTKTransactionalHashMap.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = CTKTransactionalHashMap.h;
+		path = "/Users/aramallo/Projects/CTKConcurrency/Classes/Persistent Data Structures/CTKTransactionalHashMap.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1066, 816}}";
 			sepNavSelRange = "{0, 0}";
@@ -243,10 +249,23 @@
 		};
 	};
 	802C0026113BEB9E002E16A7 /* CTKTransactionalHashMap.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CTKTransactionalHashMap.m;
+		path = "/Users/aramallo/Projects/CTKConcurrency/Classes/Persistent Data Structures/CTKTransactionalHashMap.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1066, 3893}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 3893}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 443}";
+			sepNavVisRange = "{3, 218}";
+		};
+	};
+	802C0029113BEB9E002E16A7 /* CTKPersistentHashMap.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 884}}";
+			sepNavSelRange = "{0, 1341}";
+			sepNavVisRange = "{0, 1367}";
 		};
 	};
 	802C002E113BEB9E002E16A7 /* CTKTrieBitmapIndexedNode.m */ = {
@@ -1171,5 +1190,12 @@
 		executables = (
 			806EE0A2112D2D170006FDB6 /* CTKConcurrency */,
 		);
+	};
+	C6859EA3029092ED04C91782 /* CTKConcurrency.1 */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 1343}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1296}";
+		};
 	};
 }
