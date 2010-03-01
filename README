@@ -26,6 +26,8 @@
 
 Blog: http://comingthoughts.com
 
+Documentation: Look at http://wiki.github.com/aramallo/CTKConcurrency/
+
 CTKConcurrency is an library to provide Software Transactional Memory capabilities as found in Clojure, to the Objective-C/Cocoa platform.
 
 It only works with Intel 64-bit macs of far.
